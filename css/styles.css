@@ -1,20 +1,47 @@
 .container{
     width: 90vw;
     margin: 0 auto;
+    background-color: white;
 }
 
 #links-right{
     float: right;
     margin-top: 5vh;
+    text-align: center;
+   
+}
+
+#main-header{
+    background-color: #051644;
+}
+
+#links-right, .slide-text{
+    color: white;
+}
+body{
+    background-color: #ebe5e1;
+}
+
+.product-list-item {
+    padding: 20px 5px;
+}
+
+.article-header{
+    font-weight: bold;
+    padding-top: 30px;
     
 }
-/* ----------------------header----------------- */
-/* #main-header{
-    height: 10vh;
-    width: 100vw;
-    align-content: center;
-    background-color: #051644;
-    display: flex;
-    justify-content: space-between;
-} */
+
+.product-list-title{
+font-weight: 100;
+font-size: medium;
+}
+.product-list-price{
+    font-weight: bold;
+    font-size: large;
+}
+
+article {
+    margin: 0 15px;
+}
 
