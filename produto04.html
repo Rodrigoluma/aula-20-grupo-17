@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/productStyles.css">
     <title>Aula 20</title>
 </head>
 <body>
-    <header id="main-header">
+    <header id="main-header" class="row">
         <div class="container">
-            <div>
+            <div class="col-2">
                 <a href="index.html"><img src="img/logo.svg" alt="Dev Web Full Stack"></a>
             </div>
-            <nav id="links-right">
-                <ul>
-                    <li><a href="#"><i class="fa-solid fa-box"></i>Meus anúncios</a></li>
-                    <li><a href="#"><i class="fa-solid fa-comment"></i>Fale Conosco</a></li>
-                    <li><a href="#"><i class="fa-solid fa-user"></i>Quem somos</a></li>
+            <nav id="links-right" class="col-6">
+                <ul class="row">
+                    <li><a href="#"><i class="col-4 fa-solid fa-user"></i>Quem somos</a></li>
+                    <li><a href="#"><i class="col-4 fa-solid fa-comment"></i>Fale Conosco</a></li>
+                    <li><a href="#"><i class="col-4 fa-solid fa-box"></i>Meus anúncios</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,15 +34,15 @@
                     </div>
                 </header>
                 <div>
-                    <div>
+                    <div class="col-8">
                         <div class="product-photo">
-                            <figure>
+                            <figure class="row">
                                 <img src="img/produto-04.jpg" alt="Produto 04">
                             </figure>
                             
                         </div>
-                        <div class="product-description">
-                            <header class="article-header">Descrição</header>
+                        <div class="product-description row">
+                            <header class="article-header"><strong>Descrição</strong></header>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                 Esse veritatis totam rerum sunt voluptatum voluptatibus laborum praesentium 
@@ -46,18 +50,18 @@
                             </p>
                             
                         </div>
-                        <div class="product-detail">
-                            <header class="article-header">Detalhes</header>
-                            <div>
-                                <div>
+                        <div class="product-detail col-10">
+                            <header class="article-header"><strong>Detalhes</strong></header>
+                            <div class="row">
+                                <div class="col-4">
                                     <h4>Categoria</h4>
                                     <p>Lorem.</p>
                                 </div>
-                                <div>
+                                <div class="col-4">
                                     <h4>Categoria</h4>
                                     <p>Lorem.</p>
                                 </div>
-                                <div>
+                                <div class="col-4">
                                     <h4>Categoria</h4>
                                     <p>Lorem.</p>
                                 </div>
@@ -67,7 +71,7 @@
                     <div>
                         <div class="product-price">R$ 1.000,00</div>
                         <div class="seller">
-                            <div class="seller-name">Nome do Vendendor</div>
+                            <div class="seller-name"><strong>Nome do Vendendor</strong></div>
                             <div class="seller-contact"><i class="fa-solid fa-phone"></i>(00) 00000-0000</div>
                             <a href="#" class="bt-primary"><i class="fa-solid fa-comment"></i>Chat</a>
                         </div>
@@ -76,6 +80,7 @@
             </article>
         </div>
     </main>
+    <hr>
     <footer id="main-footer">
         <div class="container">
             <nav id="footer-links">

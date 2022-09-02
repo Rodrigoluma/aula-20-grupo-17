@@ -1,0 +1,99 @@
+.container{
+    width: 90vw;
+    margin: 0 auto;
+    
+}
+
+
+#links-right{
+    float: right;
+    margin-top: 4vh;
+    margin-right: 15vw;
+}
+
+
+#links-right li {
+    margin-left: 20px;
+       float: right;
+      
+   }
+
+#main-header{
+    background-color: #051644;
+ }
+
+#links-right, .slide-text{
+    color: white;
+}
+body{
+    background-color: #ebe5e1;
+}
+main {
+    width: 90vw;
+    margin: 0 auto; 
+    background-color: white;
+    height: 850px;
+}
+
+.product{
+    
+    padding: 0 15px;
+}
+
+.article-header{
+    padding: 15px 0;
+}
+img{
+    padding-right: 10px;
+}
+.product-price{
+    font-size: 25px;
+    background-color: #051644;
+    color: white;
+    height: 70px;
+    width: 500px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+.seller{
+    display: table;
+    width: 399px;
+    background-color: #ebe5e1;
+    margin: 10px auto;
+    height: 140px;
+    text-align: center;
+   
+}
+.seller-name{
+    padding-top: 20px;
+}
+.seller-contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bt-primary{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px 30px;
+    
+}
+
+hr {
+    width: 90vw;
+    margin: 6vh auto 3vh;
+    color: rgb(213, 214, 216);
+}
+footer {
+    font-weight: bold;
+    width: 90vw;
+    margin: 10vh auto;
+    display: flex;
+}
+#footer-links li{
+    float: left;
+    margin-right: 5vw;
+}
+#social-medias{
+    float: right;
+}
