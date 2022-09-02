@@ -1,19 +1,26 @@
 .container{
     width: 90vw;
     margin: 0 auto;
-    background-color: white;
+    
 }
+
 
 #links-right{
     float: right;
     margin-top: 5vh;
-    text-align: center;
-   
+    margin-right: 15vw;
 }
+
+
+#links-right li {
+    margin-left: 20px;
+       float: right;
+      
+   }
 
 #main-header{
     background-color: #051644;
-}
+ }
 
 #links-right, .slide-text{
     color: white;
@@ -21,7 +28,11 @@
 body{
     background-color: #ebe5e1;
 }
-
+main {
+    background-color: white;
+    width: 90vw;
+    margin: 0 auto;
+}
 .product-list-item {
     padding: 20px 5px;
 }
@@ -45,3 +56,33 @@ article {
     margin: 0 15px;
 }
 
+
+figure {
+    padding-top: 20px;
+    position: relative;
+}
+figcaption{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
+hr {
+    width: 90vw;
+    margin: 6vh auto 3vh;
+    color: rgb(213, 214, 216);
+}
+footer {
+    font-weight: bold;
+    width: 90vw;
+    margin: 10vh auto;
+    display: flex;
+}
+#footer-links li{
+    float: left;
+    margin-right: 5vw;
+}
+#social-medias{
+    float: right;
+}
